@@ -12,6 +12,7 @@ function randomNumber(max) {
 
 function resetCards() {
   let count = 0;
+  //first empty array
   playingCards = [];
   let localCards = cards.slice();
   while (localCards.length > 0) {
