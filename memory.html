@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Snake Game</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <!-- https://www.educative.io/blog/javascript-snake-game-tutorial#display -->
+  <body>
+    <table>
+      <tr>
+        <td>
+          <img
+            id="card1"
+            onclick="turnCard(1)"
+            src="https://i.postimg.cc/66kh4tZq/background.png"
+          />
+        </td>
+        <td>
+          <img
+            id="card2"
+            onclick="turnCard(2)"
+            src="https://i.postimg.cc/66kh4tZq/background.png"
+          />
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <img
+            id="card3"
+            onclick="turnCard(3)"
+            src="https://i.postimg.cc/66kh4tZq/background.png"
+          />
+        </td>
+        <td>
+          <img
+            id="card4"
+            onclick="turnCard(4)"
+            src="https://i.postimg.cc/66kh4tZq/background.png"
+          />
+        </td>
+      </tr>
+    </table>
+
+    <br />
+    <button onclick="resetCards()">start Game</button>
+
+    <script src="./javascript.js"></script>
+  </body>
+</html>
